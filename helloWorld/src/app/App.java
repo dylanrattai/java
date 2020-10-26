@@ -15,11 +15,47 @@ public class App {
         char unicodeCharacter = 'a';
         boolean trueFalse = true;
 
+        /*
+        Boolean operators
+        ! Not
+        == Equal To
+        != Not Equal to
+        &&  And
+        || Or
+        ^ Exclusive Or
+        */
+
+
+        int placeholder = 1;
+        if(placeholder ==  1){   
+        }
+
+        if(placeholder == 1){  
+        }
+        else{ 
+        }
+
+        if(placeholder !=82){
+        }
+        else if(placeholder == 1){
+        }
+        else{
+        }
+
+        for(int i = 1; i == 1; i++){
+        }
+        
+        for(int i = 1; i == 1;){
+        }
+
+        while(placeholder == 1){
+        }
+        //break; stops  loop
+
 
 
         /* use sysout and tab to make a System.out
-        \/< Removing warning for not using myNumber
-        */
+        \/< Removing warning for not using myNumber */
         System.out.println(intreger);
         System.out.println(shortInt);
         System.out.println(longInt);
