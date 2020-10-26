@@ -44,7 +44,10 @@ public class App {
 
         for(int i = 1; i == 1; i++){
         }
-        
+
+        for(int i = 1; i == 1; i--){
+        }
+
         for(int i = 1; i == 1;){
         }
 
