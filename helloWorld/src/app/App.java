@@ -12,7 +12,7 @@ public class App {
         long longInt = 1000000000;
         double decimal = 1.192347;
         float smallDecimal = 1.732f;
-        char unicodeCharacter = 'y';
+        char unicodeCharacter = 'a';
         boolean trueFalse = true;
 
 
