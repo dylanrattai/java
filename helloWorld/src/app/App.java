@@ -1,4 +1,5 @@
 package app;
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
@@ -14,6 +15,8 @@ public class App {
         float smallDecimal = 1.732f;
         char unicodeCharacter = 'a';
         boolean trueFalse = true;
+        String text = "text";
+
 
         /*
         Boolean operators
@@ -27,7 +30,7 @@ public class App {
 
 
         int placeholder = 1;
-        if(placeholder ==  1){   
+        if(placeholder ==  1){  
         }
 
         if(placeholder == 1){  
@@ -43,18 +46,31 @@ public class App {
         }
 
         for(int i = 1; i == 1; i++){
+            break; 
         }
 
         for(int i = 1; i == 1; i--){
+            break; 
         }
 
         for(int i = 1; i == 1;){
+            break; 
         }
 
         while(placeholder == 1){
+            break;
         }
+
+        do {
+            break; //runs through code once then checks to repeat
+        }while(placeholder == 1);
         //break; stops  loop
 
+        //add import java.util.Scanner; on 2nd line
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a line of text: ");
+        String inputString = input.nextLine();
+        System.out.println("Line entered: " + inputString);
 
 
         /* use sysout and tab to make a System.out
@@ -67,6 +83,7 @@ public class App {
         System.out.println(unicodeCharacter);
         System.out.println(trueFalse);
         System.out.println(superSmallInt);
+        System.out.println(text);
 
     }
 }
